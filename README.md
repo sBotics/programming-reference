@@ -15,7 +15,7 @@
 	The official C# programming reference
 </h3>
 <p align="center">
-    For non-commerical (educational) purposes <i>only</i>.
+    For non-commercial (educational) purposes <i>only</i>.
     <br>
     <sup>
         <a href="#portuguese"><img src=".github/README/pt_BR.png" width="9"> Português</a> 
