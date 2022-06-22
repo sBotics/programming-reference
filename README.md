@@ -78,7 +78,7 @@ Every block that can be programmed in sBotics is called a "component". Every com
 
 The former is always called when a new game starts and the latter when a game finishes.
 
-Sensors are components that have a `Digital` boolean property. Some sensors may have an `Robot.ColorSensor.Analog` property as well, returning different types (e.g. ColorSensor returning a ProgrammingUtils.Color object).
+Sensors are components that have a `Digital` boolean property. Some sensors may have an `Robot.ColorSensor.Analog` property as well, returning different types (e.g. ColorSensor returning a CodeUtils.Color object).
 
 --------------
 <h2 id="portuguese"> <img src=".github/README/pt_BR.png" width="16"> &nbsp;Português (Brasileiro) </h2> 
@@ -118,7 +118,7 @@ Todo bloco que pode ser programado no sBotics é chamado de "componente". Todo c
 
 O primeiro é sempre chamado quando uma nova rotina é iniciada, e o segundo quando a mesma é finalizada.
 
-Sensores são componentes que possuem uma propriedade booleana `Digital`. Alguns sensores também podem possuir uma propriedade `Analog`, retornando tipos diferentes (como o `Robot.ColorSensor.Analog` que retorna um objeto `ProgrammingUtils.Color`)
+Sensores são componentes que possuem uma propriedade booleana `Digital`. Alguns sensores também podem possuir uma propriedade `Analog`, retornando tipos diferentes (como o `Robot.ColorSensor.Analog` que retorna um objeto `CodeUtils.Color`)
 
 --------------
 ## Credits
