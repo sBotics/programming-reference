@@ -125,7 +125,7 @@ Sensores são componentes que possuem uma propriedade booleana `Digital`. Alguns
 These credits are not valid for the entire *sBotics Organization*, but were made **specifically** for this repository. While other contributors may appear in the future through github's Pull Request feature, their credit shall remain only on github's contributor section, keeping these credits below intact to be changed only by actual sBotics simulator developers.
 
 * [Lucas Nascimento](https://www.linkedin.com/in/lucas-moura-do-nascimento) - Designed and programmed the current robot programming architecture; 
-* [Thiago Nascimento](https://www.linkedin.com/in/txiag) - Implemented `Utils.Map` and the first versions of Robot.UltrasonicSensor and `Robot.TouchSensor`.
+* [Thiago Nascimento](https://www.linkedin.com/in/txiag) - Implemented `Utils.Map` and the previous versions of the Ultrasonic and Colour Sensors.
 
 --------------
 
