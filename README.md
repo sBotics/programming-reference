@@ -11,20 +11,20 @@
 
 <br>
 
-<h3 align="center">
+<h2 align="center">
 	The official C# programming reference
-</h3>
+</h2>
 <p align="center">
-    For non-commercial (educational) purposes <i>only</i>.
-    <br>
-    <sup>
+    <b>For non-commercial (educational) purposes <i>only</i></b>.
+	<br>
+    <b><i>Apenas</i> para usos não-comerciais (educacionais)</b>.
+    <br><br>
+    <sub>
         <a href="#portuguese"><img src=".github/README/pt_BR.png" width="9"> Português</a> 
         &nbsp;•&nbsp;
         <a href="#english"><img src=".github/README/en.png" width="9"> English</a>
-    </sup>
-</p>
-
-<p align="center">
+    </sub>
+	<br>
 	<strong>
 		<a href="https://sbotics.net">Website</a>
 		•
