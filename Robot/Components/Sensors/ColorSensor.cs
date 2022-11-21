@@ -1,7 +1,7 @@
 ﻿// Comments:
 // [Special] __sBotics__Activate(), __sBotics__Deactivate()
 //     ↪ Triggered in the beggining and end of games
-// [Behavior] RenderedImage(Camera camera)
+// [Behavior] RenderedImage(UnityEngine.Camera camera)
 //     ↪ Renders an image and returns it
 
 using UnityEngine;
@@ -13,7 +13,7 @@ namespace sBotics
     {
         public class ColorSensor : __sBotics__Sensor
         {   
-            Camera sensorLens;
+            UnityEngine.Camera sensorLens;
 
             private const int image_size = 5;
 
@@ -51,7 +51,7 @@ namespace sBotics
 
             void Awake() => sensorLens.targetTexture = new RenderTexture(image_size, image_size, 8);
 
-            Texture2D RenderedImage(Camera camera)
+            Texture2D RenderedImage(UnityEngine.Camera camera)
             {
                 // The Render Texture in RenderTexture.active is the one that will be read by ReadPixels.
                 var currentRT = RenderTexture.active;
