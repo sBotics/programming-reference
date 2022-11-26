@@ -39,6 +39,13 @@ namespace sBotics
                 tip.emitting = false;
             }
 
+            public void Clear()
+            {
+                if(__sBotics__RobotController.__sBotics__Inactive) return;
+
+                tip.Clear();   
+            }
+
             // Behavior methods
             public override void __sBotics__Activate() => TurnOff();
             public override void __sBotics__Deactivate() => TurnOff();
